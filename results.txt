@@ -1,3 +1,37 @@
+PHP 8.3.0 (cli) (built: Nov 21 2023 14:40:35) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.3.0, Copyright (c) Zend Technologies
+    with Zend OPcache v8.3.0, Copyright (c), by Zend Technologies
+
+php concatenation-01.php 
+Time: 0.021627902984619 sec 
+Memory: 22405872 bytes 24.98 mb 
+
+php concatenation-01.php
+Time: 0.025043964385986 sec 
+Memory: 22405872 bytes 24.98 mb 
+
+php concatenation-01.php
+Time: 0.024399042129517 sec 
+Memory: 22405872 bytes 24.98 mb 
+
+php concatenation-02.php 
+Time: 0.026890993118286 sec 
+Memory: 39199984 bytes 39 mb 
+
+php sobstitution-01.php 
+Time: 0.035393953323364 sec 
+Memory: 402608 bytes 2 mb 
+
+php sobstitution-02.php 
+Time: 0.037884950637817 sec 
+Memory: 402344 bytes 2 mb 
+
+php sobstitution-03.php 
+Time: 0.038119077682495 sec 
+Memory: 402344 bytes 2 mb 
+
+
 PHP 8.2.0 (cli) (built: Dec  9 2022 16:30:32) (NTS)
 Copyright (c) The PHP Group
 Zend Engine v4.2.0, Copyright (c) Zend Technologies
@@ -23,6 +57,11 @@ Memory: 402056 bytes 2 mb
 php sobstitution-03.php 
 Time: 0.039529085159302 sec 
 Memory: 402056 bytes 2 mb 
+
+ruby 3.2.2 (2023-03-30 revision e51014f9c0) [arm64-darwin22]
+{:TOTAL=>39899, :FREE=>14297, :T_OBJECT=>384, :T_CLASS=>701, :T_MODULE=>53, :T_FLOAT=>7, :T_STRING=>15981, :T_REGEXP=>95, :T_ARRAY=>1681, :T_HASH=>121, :T_STRUCT=>10, :T_BIGNUM=>1, :T_FILE=>3, :T_DATA=>242, :T_COMPLEX=>1, :T_SYMBOL=>26, :T_IMEMO=>6238, :T_ICLASS=>58}
+{:TOTAL=>39899, :FREE=>16671, :T_OBJECT=>384, :T_CLASS=>701, :T_MODULE=>53, :T_FLOAT=>7, :T_STRING=>13593, :T_REGEXP=>95, :T_ARRAY=>1682, :T_HASH=>124, :T_STRUCT=>10, :T_BIGNUM=>1, :T_FILE=>3, :T_DATA=>243, :T_COMPLEX=>1, :T_SYMBOL=>26, :T_IMEMO=>6247, :T_ICLASS=>58}
+{"3.2.2":{"gc":"enabled","time":0.06,"gc_count":98,"memory":"22 MB"}}
 
 ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [arm64-darwin22]
 ruby -I . concatenation-02.rb 
