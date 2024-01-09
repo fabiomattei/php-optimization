@@ -36,7 +36,7 @@ def measure(&block)
   puts({
     RUBY_VERSION => {
       gc: no_gc ? 'disabled' : 'enabled',
-      time: time.round(2),
+      time: time.round(10),
       gc_count: gc_stat_after[:count] - gc_stat_before[:count],
       memory: "%d MB" % (memory_after - memory_before)
     }
